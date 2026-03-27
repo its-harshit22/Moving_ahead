@@ -1,5 +1,7 @@
 
 #include <bits/stdc++.h>
+#include <iostream.h>
+#include <vector>
 using namespace std;
 
 int firstOccurrence(vector<int> &arr, int n, int k) {
