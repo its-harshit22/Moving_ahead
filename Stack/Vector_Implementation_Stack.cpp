@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+//Similar to array implementation of stack
 using namespace std;
 class Stack{
     vector<int> v;
