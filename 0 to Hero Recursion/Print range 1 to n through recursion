@@ -1,0 +1,31 @@
+//Print linearly from 1 to n
+//Print linearly from n to 1
+//Recursivly
+
+#include<iostream>
+#include<vector>
+using namespace std;
+void printer(int n,int m){
+    if(n==m){
+        return;
+    }
+    cout<< n <<endl;
+    printer(n+1,m);
+}
+
+void printOp(int n,int m){
+    if(n==m){
+        return;
+    }
+    cout<< n <<endl;
+    printOp(n-1,m);
+}
+int main(){
+    int n;
+    cout<< "Upto 1 from where you need numbers" <<endl;
+    cin>>n;
+    cout<< "_________________________________" <<endl;
+     printer(1,n+1);
+     printOp(n,0);
+     return 0;
+}
