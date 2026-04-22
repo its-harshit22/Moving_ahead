@@ -1,4 +1,4 @@
-//Check give string is palindrome or not.
+//Check give string is palindrome or not. Solution
 #include<bits/stdc++.h>
 using namespace std;
 void palindrome(string s,int i){
