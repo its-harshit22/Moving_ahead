@@ -1,74 +1,74 @@
-//Recursion 
-//Time complexity = O(2^n)
-//Space Complexity = O(n)stack space
-// #include<bits/stdc++.h>
-// using namespace std;
+// Recursion 
+// Time complexity = O(2^n)
+// Space Complexity = O(n)stack space
+#include<bits/stdc++.h>
+using namespace std;
 
-// int adjSum(int ind, vector<int>& arr) {
-//     if(ind == 0)
-//         return arr[0];
+int adjSum(int ind, vector<int>& arr) {
+    if(ind == 0)
+        return arr[0];
 
-//     if(ind < 0)
-//         return 0;
+    if(ind < 0)
+        return 0;
 
-//     int pick = arr[ind] + adjSum(ind-2, arr);
-//     int notPick = adjSum(ind-1, arr);
+    int pick = arr[ind] + adjSum(ind-2, arr);
+    int notPick = adjSum(ind-1, arr);
 
-//     return max(pick, notPick);
-// }
+    return max(pick, notPick);
+}
 
-// int main() {
-//     int n;
-//     cout << "Enter the size of an array : ";
-//     cin >> n;
+int main() {
+    int n;
+    cout << "Enter the size of an array : ";
+    cin >> n;
 
-//     vector<int> arr(n);
+    vector<int> arr(n);
 
-//     for(int i = 0; i < n; i++)
-//         cin >> arr[i];
+    for(int i = 0; i < n; i++)
+        cin >> arr[i];
      
 
-//     cout << adjSum(n-1, arr);
+    cout << adjSum(n-1, arr);
 
-//     return 0;
-// }
+    return 0;
+}
 
-// //Memoization Approach
-// //Time complexity = O(N)
-// //Space complexity = O(N)+O(N)stack space and dp array
-// #include<bits/stdc++.h>
-// using namespace std;
+//Memoization Approach
+//Time complexity = O(N)
+//Space complexity = O(N)+O(N)stack space and dp array
+#include<bits/stdc++.h>
+using namespace std;
 
-// int adjSum(int ind, vector<int>& arr,vector<int>&dp) {
-//      if(ind == 0)
-//         return arr[0];
+int adjSum(int ind, vector<int>& arr,vector<int>&dp) {
+     if(ind == 0)
+        return arr[0];
 
-//      if(ind < 0)
-//         return 0;
-//      if(dp[ind]!=-1)return dp[ind];
+     if(ind < 0)
+        return 0;
+     if(dp[ind]!=-1)return dp[ind];
 
-//      int pick = arr[ind] + adjSum(ind-2, arr,dp);
+     int pick = arr[ind] + adjSum(ind-2, arr,dp);
      
-//      int notPick = adjSum(ind-1, arr,dp);
+     int notPick = adjSum(ind-1, arr,dp);
 
-//      return dp[ind] = max(pick, notPick);
-// }
+     return dp[ind] = max(pick, notPick);
+}
 
-// int main() {
-//     int n;
-//     cout << "Enter the size of an array : ";
-//     cin >> n;
+int main() {
+    int n;
+    cout << "Enter the size of an array : ";
+    cin >> n;
 
-//     vector<int> arr(n);
+    vector<int> arr(n);
 
-//     for(int i = 0; i < n; i++)
-//         cin >> arr[i];
+    for(int i = 0; i < n; i++)
+        cin >> arr[i];
      
-//      vector<int>dp(n,-1);
-//     cout << adjSum(n-1, arr,dp);
+     vector<int>dp(n,-1);
+    cout << adjSum(n-1, arr,dp);
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 //Tabulation 
@@ -100,6 +100,39 @@ int main() {
         dp[i] = max(take,nottake);
     }
     cout<< dp[n-1] <<endl;
+
+    return 0;
+}
+//:::::::Now that is what make striver different SPACE OPTIMIZATION:::::::::://
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter the size of an array : ";
+    cin >> n;
+
+    vector<int> arr(n);
+
+    for(int i = 0; i < n; i++)
+        cin >> arr[i];
+    int take = 0;
+    int nottake = 0;
+    
+    int prev = arr[0];
+    int prev2 = 0;
+    
+    for(int i=1;i<n;i++){
+         take = arr[i];if(i>1)take += prev2;
+         nottake = prev;
+         int curi = max(take,nottake);
+         prev2 = prev;
+         prev = curi;
+         
+    }
+    cout<< prev <<endl;
 
     return 0;
 }
