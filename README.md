@@ -1,76 +1,141 @@
+<div align="center">
+
 # 🚀 Moving Ahead
 
-Welcome to **Moving Ahead**! 👋
+### *My Complete Data Structures & Algorithms Journey*
 
-This repository is a collection of my **Data Structures & Algorithms (DSA)** journey. It contains topic-wise solutions, implementations, and important concepts that I learn while preparing for coding interviews and software engineering placements.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=3FB950&center=true&vCenter=true&width=650&lines=Consistent+Learning+%F0%9F%92%AA;Topic+Wise+DSA+Solutions;LeetCode+Daily+Practice;Preparing+for+SDE+Interviews" />
 
-The goal of this repository is to stay consistent, improve problem-solving skills, and maintain an organized record of my progress.
+![GitHub last commit](https://img.shields.io/github/last-commit/its-harshit22/Moving_ahead?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/its-harshit22/Moving_ahead?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/its-harshit22/Moving_ahead?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/its-harshit22/Moving_ahead?style=for-the-badge)
 
----
-
-## 📚 Topics Covered
-
-- 🌱 Basics
-- 🔁 Recursion
-- 📦 Arrays
-- 🔍 Binary Search
-- 🎯 Binary Search on Answer
-- ⚡ Bit Manipulation
-- 📖 Strings
-- 🪟 Sliding Window
-- 🔗 Linked List
-- 📚 Stack
-- 🌳 Tree
-- 🌐 Graph
-- 🧩 Dynamic Programming
-- 🌲 Trie
-- 📊 Matrix
-- ⚙️ STL
-- 🏔️ Heap
-- 🔥 LeetCode Daily Problems
-
-More topics will be added as I continue learning.
+</div>
 
 ---
 
-## 🎯 What's Inside?
+# 📖 About
 
-Each folder contains:
+**Moving Ahead** is my personal repository where I document everything I learn while preparing for Software Engineering interviews.
 
-- ✅ Optimized C++ solutions
-- ✅ Clean and readable code
-- ✅ Frequently asked interview problems
-- ✅ Important algorithms and concepts
-- ✅ LeetCode and coding platform solutions
+Instead of uploading random code, every folder represents one milestone in my journey—from learning the basics to solving advanced interview problems.
 
 ---
 
-## 💻 Language
+# 🗺️ Learning Roadmap
 
-- C++
+```mermaid
+flowchart LR
 
----
-
-## 📈 Purpose of this Repository
-
-This repository serves as my personal learning journal where I:
-
-- Practice DSA regularly
-- Organize solutions topic-wise
-- Revise important concepts
-- Track my coding consistency
-- Prepare for technical interviews
-
----
-
-## 📌 Repository Structure
-
+A(Basics)
+-->B(Arrays)
+-->C(Strings)
+-->D(Binary Search)
+-->E(Linked List)
+-->F(Stack & Queue)
+-->G(Tree)
+-->H(Graph)
+-->I(Heap)
+-->J(Trie)
+-->K(Dynamic Programming)
+-->L(Advanced Problems)
 ```
+
+---
+
+# 📂 Repository Architecture
+
+```mermaid
+mindmap
+root((Moving Ahead))
+    Basics
+    Arrays
+    Strings
+    Binary Search
+        Binary Search on Answer
+    Bit Manipulation
+    Sliding Window
+    Matrix
+    Linked List
+    Stack
+    Tree
+    Graph
+    Heap
+    Trie
+    Dynamic Programming
+    STL
+    LeetCode Daily
+```
+
+---
+
+# 🎯 What You'll Find
+
+<table>
+<tr>
+<td width="50%">
+
+### 📚 Learning
+
+- Topic-wise DSA
+- Interview Questions
+- STL
+- Notes
+- Concepts
+
+</td>
+
+<td width="50%">
+
+### 💻 Coding
+
+- C++ Solutions
+- Optimized Code
+- LeetCode Daily
+- Pattern Based Learning
+- Revision
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# ⚡ Workflow
+
+```mermaid
+graph TD
+
+A(Learn Concept)
+-->B(Solve Easy)
+
+B
+-->C(Medium)
+
+C
+-->D(Hard)
+
+D
+-->E(Revise)
+
+E
+-->F(LeetCode Daily)
+
+F
+-->G(Interview Ready 🚀)
+```
+
+---
+
+# 📊 Repository Structure
+
+```text
 Moving_ahead
 │
-├── Basics
-├── 0 to Hero Recursion
 ├── Arrays
+├── Basics
 ├── BinarySearch
 ├── Binary_Search_On_Answer
 ├── Bits_Manipulation
@@ -84,25 +149,26 @@ Moving_ahead
 ├── Strings
 ├── Tree
 ├── Trie
-├── link_list
 ├── STL
 └── ...
 ```
 
 ---
 
-## 🌟 Why This Repository?
+# 💡 Philosophy
 
-Instead of keeping solutions scattered across different platforms, I maintain everything in one place for easy revision and continuous improvement.
+> **"Consistency beats intensity."**
 
-Whether you're preparing for coding interviews or revising DSA concepts, I hope you find something useful here.
+One problem every day is better than solving 100 problems once.
+
+This repository is a reflection of my journey toward becoming a better software engineer.
 
 ---
 
-## 🤝 Contributions
+<div align="center">
 
-Suggestions, improvements, and discussions are always welcome.
+### ⭐ If you find this repository useful, consider giving it a Star!
 
-If you find this repository helpful, consider giving it a ⭐.
+**Happy Coding ❤️**
 
-Happy Coding! 🚀
+</div>
