@@ -2,87 +2,131 @@
 
 # 🚀 Moving Ahead
 
-### *My Complete Data Structures & Algorithms Journey*
+### *"Mountains are climbed one step at a time, not one leap at a time."*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=3FB950&center=true&vCenter=true&width=650&lines=Consistent+Learning+%F0%9F%92%AA;Topic+Wise+DSA+Solutions;LeetCode+Daily+Practice;Preparing+for+SDE+Interviews" />
-
-![GitHub last commit](https://img.shields.io/github/last-commit/its-harshit22/Moving_ahead?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/its-harshit22/Moving_ahead?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/its-harshit22/Moving_ahead?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/its-harshit22/Moving_ahead?style=for-the-badge)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Every+Commit+is+Progress.;Every+Bug+is+a+Lesson.;Every+Problem+Solved+is+a+Step+Forward.;Keep+Moving+Ahead.">
 
 </div>
 
 ---
 
-# 📖 About
+## 🌱 Why "Moving Ahead"?
 
-**Moving Ahead** is my personal repository where I document everything I learn while preparing for Software Engineering interviews.
+Most repositories are collections of code.
 
-Instead of uploading random code, every folder represents one milestone in my journey—from learning the basics to solving advanced interview problems.
+This one is different.
+
+**Moving Ahead** is a record of my growth—not my perfection.
+
+Every folder represents a challenge I once couldn't solve.
+Every commit represents a lesson I didn't know yesterday.
+Every problem solved is one more step toward becoming a better software engineer.
+
+> **I don't measure progress by how far I've come. I measure it by whether I moved forward today.**
 
 ---
 
-# 🗺️ Learning Roadmap
+# 🗺️ The Journey
 
 ```mermaid
 flowchart LR
 
-A(Basics)
--->B(Arrays)
--->C(Strings)
--->D(Binary Search)
--->E(Linked List)
--->F(Stack & Queue)
--->G(Tree)
--->H(Graph)
--->I(Heap)
--->J(Trie)
--->K(Dynamic Programming)
--->L(Advanced Problems)
+A[🌱 Learn]
+-->B[📝 Understand]
+-->C[💻 Implement]
+-->D[🐞 Debug]
+-->E[📖 Revise]
+-->F[⚡ Solve Again]
+-->G[🚀 Grow]
+
+style G fill:#238636,color:#fff
+style A fill:#1F6FEB,color:#fff
 ```
 
 ---
 
-# 📂 Repository Architecture
+# 🧠 Repository Map
 
 ```mermaid
 mindmap
 root((Moving Ahead))
-    Basics
-    Arrays
-    Strings
-    Binary Search
-        Binary Search on Answer
-    Bit Manipulation
-    Sliding Window
-    Matrix
-    Linked List
-    Stack
-    Tree
-    Graph
-    Heap
-    Trie
-    Dynamic Programming
-    STL
-    LeetCode Daily
+
+    📚 DSA
+        Arrays
+        Strings
+        Linked List
+        Stack
+        Tree
+        Graph
+        Trie
+        Heap
+        Dynamic Programming
+
+    💻 Practice
+        LeetCode Daily
+        Revision
+        STL
+
+    🎯 Goal
+        Interviews
+        Placements
+        Problem Solving
 ```
 
 ---
 
-# 🎯 What You'll Find
+# ⚡ Philosophy
+
+```text
+Knowledge without practice fades.
+
+Practice without consistency fails.
+
+Consistency without purpose burns out.
+
+Purpose + Consistency + Practice = Growth.
+```
+
+---
+
+# 📂 Repository Structure
+
+```text
+📦 Moving_Ahead
+ ┣ 📂 Arrays
+ ┣ 📂 Strings
+ ┣ 📂 Binary Search
+ ┣ 📂 Binary Search on Answer
+ ┣ 📂 Sliding Window
+ ┣ 📂 Linked List
+ ┣ 📂 Stack
+ ┣ 📂 Tree
+ ┣ 📂 Graph
+ ┣ 📂 Heap
+ ┣ 📂 Trie
+ ┣ 📂 Dynamic Programming
+ ┣ 📂 Matrix
+ ┣ 📂 Bit Manipulation
+ ┣ 📂 STL
+ ┗ 📂 LeetCode Daily
+```
+
+---
+
+# 🎯 What You'll Find Here
 
 <table>
 <tr>
+
 <td width="50%">
 
-### 📚 Learning
+### 📖 Learning
 
 - Topic-wise DSA
-- Interview Questions
-- STL
+- Important Concepts
 - Notes
-- Concepts
+- STL
+- Interview Patterns
 
 </td>
 
@@ -90,11 +134,11 @@ root((Moving Ahead))
 
 ### 💻 Coding
 
-- C++ Solutions
-- Optimized Code
-- LeetCode Daily
-- Pattern Based Learning
-- Revision
+- Clean C++ Solutions
+- Optimized Approaches
+- Multiple Solutions
+- Complexity Analysis
+- Daily Practice
 
 </td>
 
@@ -103,72 +147,32 @@ root((Moving Ahead))
 
 ---
 
-# ⚡ Workflow
+# 📈 Growth Mindset
 
 ```mermaid
-graph TD
-
-A(Learn Concept)
--->B(Solve Easy)
-
-B
--->C(Medium)
-
-C
--->D(Hard)
-
-D
--->E(Revise)
-
-E
--->F(LeetCode Daily)
-
-F
--->G(Interview Ready 🚀)
+gitGraph
+   commit id:"Start"
+   commit id:"Basics"
+   branch DSA
+   checkout DSA
+   commit id:"Arrays"
+   commit id:"Strings"
+   commit id:"Trees"
+   commit id:"Graphs"
+   commit id:"DP"
+   checkout main
+   merge DSA
+   commit id:"Interview Ready 🚀"
 ```
 
 ---
 
-# 📊 Repository Structure
+# ⭐ A Reminder
 
-```text
-Moving_ahead
-│
-├── Arrays
-├── Basics
-├── BinarySearch
-├── Binary_Search_On_Answer
-├── Bits_Manipulation
-├── Dynamic_Programming
-├── Graph
-├── Heap
-├── Leetcode Daily
-├── Matrix
-├── Sliding_Window
-├── Stack
-├── Strings
-├── Tree
-├── Trie
-├── STL
-└── ...
-```
+> **"You don't become exceptional by doing something extraordinary once. You become exceptional by doing ordinary things extraordinarily consistently."**
 
----
+If this repository helps you in your journey, consider giving it a ⭐.
 
-# 💡 Philosophy
+And remember—
 
-> **"Consistency beats intensity."**
-
-One problem every day is better than solving 100 problems once.
-
-This repository is a reflection of my journey toward becoming a better software engineer.
-
----
-
-<div align="center">
-
-### ⭐ If you find this repository useful, consider giving it a Star!
-
-**Happy Coding ❤️**
-
-</div>
+## **Keep Moving Ahead. 🚀**
