@@ -1,4 +1,4 @@
-//What feels impossible today will become ordinary tomorrow.....
+//The journey may be slow, but every step is taking you somewhere.
 
 #include<bits/stdc++.h>
 using namespace std;
